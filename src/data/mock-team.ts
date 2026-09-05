@@ -1,0 +1,77 @@
+import { TeamMember } from "@/types";
+
+export const MOCK_TEAM_MEMBERS: TeamMember[] = [
+  // Aakasa Tenant
+  {
+    id: "team-1",
+    tenantId: "tenant-aakasa",
+    name: "Dr. Alok Verma",
+    email: "alok@aakasaskillsacademy.com",
+    role: "Owner",
+    status: "Active",
+    lastActive: "10 mins ago",
+    avatar: "AV",
+  },
+  {
+    id: "team-2",
+    tenantId: "tenant-aakasa",
+    name: "Kavita Nair",
+    email: "kavita.n@aakasaskillsacademy.com",
+    role: "Admin",
+    status: "Active",
+    lastActive: "Just now",
+    avatar: "KN",
+  },
+  {
+    id: "team-3",
+    tenantId: "tenant-aakasa",
+    name: "Arjun Verma",
+    email: "arjun.v@aakasaskillsacademy.com",
+    role: "Agent",
+    status: "Active",
+    lastActive: "25 mins ago",
+    avatar: "AV",
+  },
+  {
+    id: "team-4",
+    tenantId: "tenant-aakasa",
+    name: "Ritu Sengupta",
+    email: "ritu.s@aakasaskillsacademy.com",
+    role: "Agent",
+    status: "Active",
+    lastActive: "2 hours ago",
+    avatar: "RS",
+  },
+  {
+    id: "team-5",
+    tenantId: "tenant-aakasa",
+    name: "Dev Patel",
+    email: "dev.p@aakasaskillsacademy.com",
+    role: "Agent",
+    status: "Inactive",
+    lastActive: "5 days ago",
+    avatar: "DP",
+  },
+
+  // Apex Fitness Tenant
+  {
+    id: "team-ap-1",
+    tenantId: "tenant-apex-fitness",
+    name: "Vikram Singhania",
+    email: "vikram@apexfitness.example.com",
+    role: "Owner",
+    status: "Active",
+    lastActive: "1 hour ago",
+    avatar: "VS",
+  },
+  {
+    id: "team-ap-2",
+    tenantId: "tenant-apex-fitness",
+    name: "Coach Rohan",
+    email: "rohan@apexfitness.example.com",
+    role: "Agent",
+    status: "Active",
+    lastActive: "Just now",
+    avatar: "CR",
+  },
+];

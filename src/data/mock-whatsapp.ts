@@ -1,0 +1,36 @@
+import { WhatsAppConnection } from "@/types";
+
+export const MOCK_WHATSAPP_CONNECTIONS: Record<string, WhatsAppConnection> = {
+  "tenant-aakasa": {
+    id: "waba-aakasa-1",
+    tenantId: "tenant-aakasa",
+    businessName: "Aakasa Skills Academy Official",
+    phoneNumber: "+91 74000 09344",
+    displayPhoneNumber: "+91 74000 09344",
+    wabaId: "104928172938472",
+    phoneNumberId: "109823746501928",
+    connectionStatus: "Connected",
+    webhookStatus: "Active",
+    qualityRating: "High",
+    aiAssistantEnabled: true,
+    autoReplyEnabled: true,
+    humanHandoffEnabled: true,
+    lastSyncAt: "2026-09-03T05:00:00Z",
+  },
+  "tenant-apex-fitness": {
+    id: "waba-apex-1",
+    tenantId: "tenant-apex-fitness",
+    businessName: "Apex Fitness Club Desk",
+    phoneNumber: "+91 98450 00112",
+    displayPhoneNumber: "+91 98450 00112",
+    wabaId: "204928172938999",
+    phoneNumberId: "209823746501999",
+    connectionStatus: "Connected",
+    webhookStatus: "Active",
+    qualityRating: "High",
+    aiAssistantEnabled: true,
+    autoReplyEnabled: true,
+    humanHandoffEnabled: true,
+    lastSyncAt: "2026-09-03T05:00:00Z",
+  },
+};
